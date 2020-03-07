@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8a8209d9-fd5b-4375-989f-2c2a4ad32d4c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/RabbitMQ/ConnectionUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/dao/redis/redis业务描述" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/netty/WebSocket业务描述" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/Ser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/service/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/util/MongoDBUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RabbitMQ/Receive.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RabbitMQ/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RabbitMQ/topic/Recv.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RabbitMQ/topic/Recv2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/RabbitMQ/topic/Send.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/Test/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/elasticsearch/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/mongo/MongoCRUD.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/redis/IRedis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/redis/IRedis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/dao/redis/Redis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/dao/redis/Redis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/netty/TextWebSocketFrameHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/netty/TextWebSocketFrameHandler.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pojo/Point.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pojo/Point.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mongo/MongoDBJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mongo/MongoUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/mongo/MyMongodb.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/ServerHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TextWebSocketHandler$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/TextWebSocketHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/WebSocketChannelInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/netty/WebSocketChannelInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/WebSocketServer$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/netty/WebSocketServer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/pojo/Point.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/pojo/Point.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/webapp/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/webapp/test.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1YgjlyPJREZs4yrkK0CbIolIm61" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="android.sdk.path" value="$USER_HOME$/Android/Sdk" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../netty_zhanglong" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/test/java/mongo" />
+      <recent name="$PROJECT_DIR$/src/test/java" />
+      <recent name="$PROJECT_DIR$/src/main/java/controller" />
+      <recent name="$PROJECT_DIR$/src/main/java/dao/redis" />
+      <recent name="$PROJECT_DIR$/src/main/java/netty" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Send (1)">
+    <configuration name="Receive" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RabbitMQ.Receive" />
+      <module name="kilo_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RabbitMQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recv" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RabbitMQ.topic.Recv" />
+      <module name="kilo_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RabbitMQ.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Recv2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RabbitMQ.topic.Recv2" />
+      <module name="kilo_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RabbitMQ.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RabbitMQ.topic.Send" />
+      <module name="kilo_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RabbitMQ.topic.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Send" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RabbitMQ.Send" />
+      <module name="kilo_es" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="RabbitMQ.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Send (1)" />
+        <item itemvalue="Application.Recv2" />
+        <item itemvalue="Application.Recv" />
+        <item itemvalue="Application.Send" />
+        <item itemvalue="Application.Receive" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8a8209d9-fd5b-4375-989f-2c2a4ad32d4c" name="Default Changelist" comment="" />
+      <created>1583371287004</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1583371287004</updated>
+      <workItem from="1583371290741" duration="3792000" />
+      <workItem from="1583380748220" duration="869000" />
+      <workItem from="1583381697377" duration="7042000" />
+      <workItem from="1583412457199" duration="6513000" />
+      <workItem from="1583456747557" duration="21000" />
+      <workItem from="1583470098850" duration="9385000" />
+      <workItem from="1583508754401" duration="3098000" />
+      <workItem from="1583540714377" duration="2936000" />
+      <workItem from="1583554417067" duration="21000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="668" y="364" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1583480489254">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="668" y="364" key="#com.intellij.fileTypes.FileTypeChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1583480489254" />
+    <state x="771" y="248" key="#com.intellij.ide.util.MemberChooser" timestamp="1583479261999">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="771" y="248" key="#com.intellij.ide.util.MemberChooser/0.24.1920.1056@0.24.1920.1056" timestamp="1583479261999" />
+    <state x="698" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1583386410387">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="698" y="286" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583386410387" />
+    <state x="689" y="297" key="FileChooserDialogImpl" timestamp="1583554435890">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="689" y="297" key="FileChooserDialogImpl/0.24.1920.1056@0.24.1920.1056" timestamp="1583554435890" />
+    <state width="1853" height="407" key="GridCell.Tab.0.bottom" timestamp="1583544137898">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1853" height="407" key="GridCell.Tab.0.bottom/0.24.1920.1056@0.24.1920.1056" timestamp="1583544137898" />
+    <state width="1853" height="407" key="GridCell.Tab.0.center" timestamp="1583544137894">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1853" height="407" key="GridCell.Tab.0.center/0.24.1920.1056@0.24.1920.1056" timestamp="1583544137894" />
+    <state width="1853" height="407" key="GridCell.Tab.0.left" timestamp="1583544137893">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1853" height="407" key="GridCell.Tab.0.left/0.24.1920.1056@0.24.1920.1056" timestamp="1583544137893" />
+    <state width="1853" height="407" key="GridCell.Tab.0.right" timestamp="1583544137896">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state width="1853" height="407" key="GridCell.Tab.0.right/0.24.1920.1056@0.24.1920.1056" timestamp="1583544137896" />
+    <state x="498" y="197" key="Maven.ArtifactSearchDialog" timestamp="1583383485153">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="498" y="197" key="Maven.ArtifactSearchDialog/0.24.1920.1056@0.24.1920.1056" timestamp="1583383485153" />
+    <state x="757" y="259" key="run.anything.popup" timestamp="1583471355311">
+      <screen x="0" y="24" width="1920" height="1056" />
+    </state>
+    <state x="757" y="259" key="run.anything.popup/0.24.1920.1056@0.24.1920.1056" timestamp="1583471355311" />
+  </component>
+</project>

@@ -1,0 +1,79 @@
+ User类参数
+ ----------------------存mybatis---------------------------
+ String id;            //用户帐号（不可变更）------以phone作id
+ String password;      //密码   （可变更）
+ String name;          //姓名   （不可变更）
+ String phone;         //电话   （可变更）
+ double mater;         //贡献数（单位：米）（可变更）
+ ---------------------存mongo---------------------------
+ ArrayList<HashMap> map;  //用户的贡献链表
+ ----------------------存redis---------------------------
+ String phone;         //电话
+ String verifyCode;    //验证码
+ double mater;         //贡献数（单位：米）（可变更）
+
+ Point类参数
+ ---------------------存es---------------------------
+ String name;          //地名（可空值）
+ int kind;             //地点类型（0普通定位点，1商店，2学校，3医院，4住宅楼，5办公楼）
+ HashMap<Double,Double>position;  //横纵坐标
+ String ScopeName;     //该点所属范围名称
+ String id;            //标记者id
+
+
+ 		"id": {
+                    "type": "text"
+                },
+                "name":{
+                    "type":"text"
+                },
+                "kind":{
+                    "type":"Inte"
+                },
+                "ScopeName": {
+                    "type": "text"
+                },
+                "longitude": {
+                    "type": "double"
+                },
+                "latitude":{
+                    "type": "double"
+                }
+
+
+POST localhost:9200/point
+{
+    "settings": {
+        "number_of_shards": 3,
+        "number_of_replicas": 2,
+        "analysis": {
+            "ik": {
+                "tokenizer": "ik_max_word"
+            }
+        }
+    },
+    "mappings": {
+        "_doc": {
+            "properties": {
+               "id": {
+                    "type": "text"
+                },
+                "name":{
+                    "type":"text"
+                },
+                "kind":{
+                    "type":"Inte"
+                },
+                "ScopeName": {
+                    "type": "text"
+                },
+                "longitude": {
+                    "type": "double"
+                },
+                "latitude":{
+                    "type": "double"
+                }
+            }
+        }
+    }
+}

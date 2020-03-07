@@ -1,0 +1,8 @@
+redis存储内容
+  用户信息
+<phone,null>
+<id,password>
+  位置信息
+<pid,Point>
+  聊天信息
+<id,ChannelId>

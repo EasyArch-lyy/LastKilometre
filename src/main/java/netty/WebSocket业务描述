@@ -1,0 +1,11 @@
+websocket业务
+
+switch(message.kind){
+ case:"用户上线绑定channel消息"
+       break;
+ case:"用户发送制图信息"
+       break;
+ case:"用户发送定位信息"
+       break;
+ case:"用户私聊相互定位"
+}
