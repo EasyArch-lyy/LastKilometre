@@ -1,5 +1,7 @@
 package elasticsearch;
 
+import org.elasticsearch.action.bulk.BulkRequestBuilder;
+import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.get.GetResponse;
 import org.elasticsearch.action.index.IndexResponse;
 import org.elasticsearch.client.transport.TransportClient;
@@ -15,6 +17,8 @@ import java.net.InetAddress;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.Map;
+
+import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
 public class Test {
     private static final Logger log = LoggerFactory.getLogger(Test.class);
@@ -35,10 +39,12 @@ public class Test {
         return client;
     }
 
+
+
     /*添加数据*/
     public void add() throws Exception{
         try {
-            XContentBuilder content = XContentFactory.jsonBuilder().startObject()
+            XContentBuilder content = jsonBuilder().startObject()
                     .field("name","LYC")
                     .field("age",24)
                     .field("job","coder")
@@ -83,5 +89,33 @@ public class Test {
         Test t=new Test();
         t.add();
 //        t.get("momo","msg","1");
+        TransportClient client=getConnection();
+        BulkRequestBuilder bulkRequest = client.prepareBulk();
+
+// either use client#prepare, or use Requests# to directly build index/delete requests
+        bulkRequest.add(client.prepareIndex("twitter", "_doc", "1")
+                .setSource(jsonBuilder()
+                        .startObject()
+                        .field("user", "kimchy")
+                        .field("postDate", new Date())
+                        .field("message", "trying out Elasticsearch")
+                        .endObject()
+                )
+        );
+
+        bulkRequest.add(client.prepareIndex("twitter", "_doc", "2")
+                .setSource(jsonBuilder()
+                        .startObject()
+                        .field("user", "kimchy")
+                        .field("postDate", new Date())
+                        .field("message", "another post")
+                        .endObject()
+                )
+        );
+
+        BulkResponse bulkResponse = bulkRequest.get();
+        if (bulkResponse.hasFailures()) {
+            // process failures by iterating through each bulk response item
+        }
     }
 }
